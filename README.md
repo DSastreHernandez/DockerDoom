@@ -1,8 +1,8 @@
 # DockerDoom
 Primero levantamos el numero de contenedores docker que queramos. Para este caso usamos este comando para simplemente hacer la prueba.
-...
+```
 for i in {1..2} ; do docker run -d -t ubuntu:14.04; done
-...
+```
 ![Captura desde 2022-05-17 15-34-02](https://user-images.githubusercontent.com/91556389/168823382-33657a7f-0292-47fd-a3fb-492df07b4841.png)
 Podemos ver con el comando "docker ps" que se han lanzado los contenedores. Y ahora descargamos el siguiente archivo.
 
